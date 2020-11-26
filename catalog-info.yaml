@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Bilouz"
+  description: "teesr"
+  annotations:
+    github.com/project-slug: "Bilouz/my-repo"
+    backstage.io/techdocs-ref: github:https://github.com/Bilouz/my-repo
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "Bilouz"
